@@ -298,20 +298,20 @@
      */
 
     #define LCD_PINS_RS              EXP1_03_PIN    // CS
-    #define LCD_PINS_ENABLE                 PA3     // MOSI
-    #define LCD_BACKLIGHT_PIN               -1
-    #define NEOPIXEL_PIN             EXP1_07_PIN
-    #define LCD_CONTRAST                    255
+    //#define LCD_PINS_ENABLE                  PA3  // MOSI
+    #define LCD_BACKLIGHT_PIN                 -1
+    //#define NEOPIXEL_PIN             EXP1_07_PIN
+    #define LCD_CONTRAST                     255
     #define LCD_RESET_PIN            EXP1_05_PIN
 
     #define DOGLCD_CS                EXP1_03_PIN
     #define DOGLCD_A0                EXP1_01_PIN
-    #define DOGLCD_SCK                      PA2
-    #define DOGLCD_MOSI                     PA3
+    //#define DOGLCD_SCK                       PA2
+    //#define DOGLCD_MOSI                      PA3
 
-    #define BTN_ENC                         PA15
+    #define BTN_ENC                  EXP1_02_PIN
     #define BTN_EN1                  EXP1_06_PIN
-    #define BTN_EN2                         PB15
+    #define BTN_EN2                  EXP1_08_PIN
 
     #define FORCE_SOFT_SPI
 
